@@ -1,13 +1,13 @@
 {
-    "name": "cumminsweb/cumminsdeptwebproject",
-    "description": "Cummins Department Website Distribution Project",
+    "name": "cmi/cmiproject",
+    "description": "Cummins Website Distribution Project",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
         "php": ">=7.3.0",
-        "drupal/core-recommended": "~9.2.0",
+        "drupal/core-recommended": "~9.3.0",
         "drupal/core-composer-scaffold": "~9.2",
         "szeidler/composer-patches-cli": "~1.0.0",
         "oomphinc/composer-installers-extender": "~2.0",
@@ -27,19 +27,6 @@
         "asset": {
             "type": "composer",
             "url": "https://asset-packagist.org"
-        },
-        "groupmenu": {
-            "type": "package",
-            "package": {
-                "name": "drupal_git/groupmenu",
-                "type": "drupal-module",
-                "version": "1.0-beta2",
-                "source": {
-                    "type": "git",
-                    "url": "https://git.drupalcode.org/project/groupmenu.git",
-                    "reference": "tags/8.x-1.0-beta2"
-                }
-            }
         }
     },
     "config": {
@@ -61,7 +48,7 @@
             }
         },
         "merge-plugin": {
-            "include": ["docroot/profiles/contrib/iitbdeptweb/composer.json"],
+            "include": ["docroot/profiles/contrib/cmiweb/composer.json"],
             "recurse": true,
             "replace": false,
             "merge-extra": true,
@@ -77,8 +64,7 @@
             "docroot/themes/contrib/{$name}": ["type:drupal-theme"],
             "patch/{$name}": ["type:drupal-patch"]
         },
-        "enable-patching": true,
-        "patches-file": "composer.patches.json"
+        "enable-patching": true
     },
     "scripts": {
         "post-create-project-cmd": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
