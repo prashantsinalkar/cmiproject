@@ -3,6 +3,6 @@
 .DS_Store
 /.editorconfig
 /.gitattributes
-
-
+/docroot
+/vendor
 
