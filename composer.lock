@@ -9185,16 +9185,16 @@
             "time": "2019-03-08T08:55:37+00:00"
         },
         {
-            "name": "ruchikumari94/cmiweb",
+            "name": "prashantsinalkar/cmiweb",
             "version": "9.3.0-alpha1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Ruchikumari94/cmiweb",
+                "url": "https://github.com/prashantsinalkar/cmiweb",
                 "reference": "3eb6bd89bda83942d02d5951ee0f567dc818bf9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Ruchikumari94/cmiweb/zipball/3eb6bd89bda83942d02d5951ee0f567dc818bf9b",
+                "url": "https://api.github.com/repos/prashantsinalkar/cmiweb/zipball/3eb6bd89bda83942d02d5951ee0f567dc818bf9b",
                 "reference": "3eb6bd89bda83942d02d5951ee0f567dc818bf9b",
                 "shasum": ""
             },
