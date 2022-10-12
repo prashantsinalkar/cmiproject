@@ -15,7 +15,7 @@
         "drupal/console": "~1.0",
         "drush/drush": "^8.0",
         "solarium/solarium": "~6.1",
-	"prashantsinalkar/cmiweb": "dev-main@dev"
+	"prashantsinalkar/cmiweb": "~9.3.0"
     },
     "conflict": {
         "symfony/http-foundation": "3.4.24"
@@ -31,7 +31,7 @@
         },
 	"cmidist": {
             "type": "github",
-            "url": "https://github.com/Ruchikumari94/cmiweb",
+            "url": "https://github.com/prashantsinalkar/cmiweb",
             "no-api": true
         }
     },
