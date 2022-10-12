@@ -3,7 +3,7 @@
     "description": "Cummins Website Distribution Project",
     "type": "project",
     "license": "GPL-2.0-or-later",
-    "minimum-stability": "main",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
         "php": ">=7.3.0",
@@ -15,7 +15,7 @@
         "drupal/console": "~1.0",
         "drush/drush": "^8.0",
         "solarium/solarium": "~6.1",
-	"ruchikumari94/cmiweb": "main@dev"
+	"prashantsinalkar/cmiweb": "dev-main@dev"
     },
     "conflict": {
         "symfony/http-foundation": "3.4.24"
