@@ -3,7 +3,7 @@
     "description": "Cummins Website Distribution Project",
     "type": "project",
     "license": "GPL-2.0-or-later",
-    "minimum-stability": "dev",
+    "minimum-stability": "main",
     "prefer-stable": true,
     "require": {
         "php": ">=7.3.0",
