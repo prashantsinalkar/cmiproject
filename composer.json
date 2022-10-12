@@ -30,8 +30,8 @@
             "url": "https://asset-packagist.org"
         },
 	"cmidist": {
-            "type": "github",
-            "url": "https://github.com/Ruchikumari94/cmiweb",
+            "type": "vcs",
+            "url": "https://github.com/prashantsinalkar/cmiweb",
             "no-api": true
         }
     },
