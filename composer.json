@@ -15,7 +15,7 @@
         "drupal/console": "~1.0",
         "drush/drush": "^8.0",
         "solarium/solarium": "~6.1",
-	"symfony/var-expoter": "~4.0.*",
+	"symfony/var-expoter": "~5.4",
 	"prashantsinalkar/cmiweb": "~9.3.0"
     },
     "conflict": {
