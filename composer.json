@@ -15,7 +15,8 @@
         "drupal/console": "~1.0",
         "drush/drush": "^8.0",
         "solarium/solarium": "~6.1",
-	"prashantsinalkar/cmiweb": "~9.3.0"
+        "symfony/var-exporter": "~5.4.10",
+        "prashantsinalkar/cmiweb": "~9.3.0"
     },
     "conflict": {
         "symfony/http-foundation": "3.4.24"
@@ -45,7 +46,8 @@
             "drupal/console-extend-plugin": true,
             "oomphinc/composer-installers-extender": true,
             "szeidler/composer-patches-cli": true
-        }
+        },
+	"platform-check": false
     },
     "extra": {
         "drupal-scaffold": {
@@ -70,7 +72,8 @@
             "docroot/themes/contrib/{$name}": ["type:drupal-theme"],
             "patch/{$name}": ["type:drupal-patch"]
         },
-        "enable-patching": true
+        "enable-patching": true,
+	"patches-file": "composer.patches.json"
     },
     "scripts": {
         "post-create-project-cmd": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",

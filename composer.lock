@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "db7bd98a40472ed311f22867ad6289e6",
+    "content-hash": "d32bcf6fd2e716fc61a3a9f616de5386",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1245,34 +1245,35 @@
         },
         {
             "name": "doctrine/event-manager",
-            "version": "1.1.2",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/event-manager.git",
-                "reference": "eb2ecf80e3093e8f3c2769ac838e27d8ede8e683"
+                "reference": "95aa4cb529f1e96576f3fda9f5705ada4056a520"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/event-manager/zipball/eb2ecf80e3093e8f3c2769ac838e27d8ede8e683",
-                "reference": "eb2ecf80e3093e8f3c2769ac838e27d8ede8e683",
+                "url": "https://api.github.com/repos/doctrine/event-manager/zipball/95aa4cb529f1e96576f3fda9f5705ada4056a520",
+                "reference": "95aa4cb529f1e96576f3fda9f5705ada4056a520",
                 "shasum": ""
             },
             "require": {
+                "doctrine/deprecations": "^0.5.3 || ^1",
                 "php": "^7.1 || ^8.0"
             },
             "conflict": {
                 "doctrine/common": "<2.9"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^9",
-                "phpstan/phpstan": "~1.4.10 || ^1.5.4",
+                "doctrine/coding-standard": "^9 || ^10",
+                "phpstan/phpstan": "~1.4.10 || ^1.8.8",
                 "phpunit/phpunit": "^7.5 || ^8.5 || ^9.5",
-                "vimeo/psalm": "^4.22"
+                "vimeo/psalm": "^4.24"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Doctrine\\Common\\": "lib/Doctrine/Common"
+                    "Doctrine\\Common\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1316,7 +1317,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/event-manager/issues",
-                "source": "https://github.com/doctrine/event-manager/tree/1.1.2"
+                "source": "https://github.com/doctrine/event-manager/tree/1.2.0"
             },
             "funding": [
                 {
@@ -1332,7 +1333,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-27T22:18:11+00:00"
+            "time": "2022-10-12T20:51:15+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -6642,26 +6643,26 @@
         },
         {
             "name": "drupal/twig_field_value",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/twig_field_value.git",
-                "reference": "2.0.0"
+                "reference": "2.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/twig_field_value-2.0.0.zip",
-                "reference": "2.0.0",
-                "shasum": "d2d0db6249493542bf9d568970f67d10ce143f90"
+                "url": "https://ftp.drupal.org/files/projects/twig_field_value-2.0.1.zip",
+                "reference": "2.0.1",
+                "shasum": "c448df55d01e17d352370d5366124d28d3d0cb21"
             },
             "require": {
-                "drupal/core": "^8 || ^9"
+                "drupal/core": "^8 || ^9 || ^10"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.0.0",
-                    "datestamp": "1587069998",
+                    "version": "2.0.1",
+                    "datestamp": "1665604686",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -8708,6 +8709,95 @@
             "time": "2020-12-15T10:26:18+00:00"
         },
         {
+            "name": "prashantsinalkar/cmiweb",
+            "version": "9.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/prashantsinalkar/cmiweb",
+                "reference": "1b5c4badc0637e056f41e347931243554a53bd76"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/prashantsinalkar/cmiweb/zipball/1b5c4badc0637e056f41e347931243554a53bd76",
+                "reference": "1b5c4badc0637e056f41e347931243554a53bd76",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/slick-carousel": "~1.0",
+                "drupal/admin_toolbar": "~3.0",
+                "drupal/authorization": "~1.0",
+                "drupal/better_exposed_filters": "~5.0",
+                "drupal/bootstrap_layouts": "~5.1",
+                "drupal/captcha": "~1.2",
+                "drupal/ckeditor_entity_link": "~1.0",
+                "drupal/coffee": "~1.0",
+                "drupal/config_delete": "~1.17",
+                "drupal/config_distro_ignore": "~1.0",
+                "drupal/config_merge_filter": "~1.0",
+                "drupal/config_sync": "~2.0",
+                "drupal/config_update_ui": "~1.6",
+                "drupal/csv_serialization": "~2.0",
+                "drupal/datatables": "~2.0",
+                "drupal/devel": "~4.1",
+                "drupal/ds": "~3.1",
+                "drupal/editor_advanced_link": "~1.4",
+                "drupal/facets": "~2.0",
+                "drupal/field_group": "~3.0",
+                "drupal/field_permissions": "~1.0",
+                "drupal/fontawesome": "^2.13",
+                "drupal/image_widget_crop": "^2.2",
+                "drupal/imagemagick": "^3.0",
+                "drupal/ldap": "~4.0",
+                "drupal/libraries": "~3.0",
+                "drupal/link_attributes": " ~1.6",
+                "drupal/linked_field": "~1.1",
+                "drupal/masquerade": "~2.0",
+                "drupal/menu_per_role": "~1.0",
+                "drupal/migrate_file": "~2.0",
+                "drupal/migrate_plus": "~5.1",
+                "drupal/migrate_source_csv": "~3.4",
+                "drupal/migrate_tools": "~4.0",
+                "drupal/name": "~1.0",
+                "drupal/paragraphs": "~1.5",
+                "drupal/pathauto": "~1.3",
+                "drupal/pdfpreview": "^1.0",
+                "drupal/search_api_autocomplete": "~1.0",
+                "drupal/search_api_solr": "~4.1",
+                "drupal/shs": "~2.0",
+                "drupal/slick": "~2.2",
+                "drupal/slick_extras": "~1.0",
+                "drupal/slick_views": "~2.3",
+                "drupal/smtp": "~1.0",
+                "drupal/spamspan": "~1.0",
+                "drupal/superfish": "^1.3",
+                "drupal/token": "~1.3",
+                "drupal/twig_field_value": "~2.0",
+                "drupal/views_bootstrap": "~3.1",
+                "npm-asset/blazy": "~1.0",
+                "npm-asset/cropper": "~4.1.0",
+                "npm-asset/datatables": "1.9.4",
+                "npm-asset/jquery-ui-touch-punch": "~0.2"
+            },
+            "type": "drupal-profile",
+            "extra": {
+                "installer-paths": {
+                    "docroot/libraries/slick": [
+                        "bower-asset/slick-carousel"
+                    ]
+                }
+            },
+            "scripts": {
+                "remove-extra-libraries": [
+                    "rm -rf docroot/libraries/slick-carousel"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "CMI Distribution Profile",
+            "time": "2022-10-12T16:34:27+00:00"
+        },
+        {
             "name": "psr/cache",
             "version": "1.0.1",
             "source": {
@@ -9183,95 +9273,6 @@
                 "source": "https://github.com/ralouphie/getallheaders/tree/develop"
             },
             "time": "2019-03-08T08:55:37+00:00"
-        },
-        {
-            "name": "ruchikumari94/cmiweb",
-            "version": "9.3.0-alpha1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Ruchikumari94/cmiweb",
-                "reference": "3eb6bd89bda83942d02d5951ee0f567dc818bf9b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Ruchikumari94/cmiweb/zipball/3eb6bd89bda83942d02d5951ee0f567dc818bf9b",
-                "reference": "3eb6bd89bda83942d02d5951ee0f567dc818bf9b",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/slick-carousel": "~1.0",
-                "drupal/admin_toolbar": "~3.0",
-                "drupal/authorization": "~1.0",
-                "drupal/better_exposed_filters": "~5.0",
-                "drupal/bootstrap_layouts": "~5.1",
-                "drupal/captcha": "~1.2",
-                "drupal/ckeditor_entity_link": "~1.0",
-                "drupal/coffee": "~1.0",
-                "drupal/config_delete": "~1.17",
-                "drupal/config_distro_ignore": "~1.0",
-                "drupal/config_merge_filter": "~1.0",
-                "drupal/config_sync": "~2.0",
-                "drupal/config_update_ui": "~1.6",
-                "drupal/csv_serialization": "~2.0",
-                "drupal/datatables": "~2.0",
-                "drupal/devel": "~4.1",
-                "drupal/ds": "~3.1",
-                "drupal/editor_advanced_link": "~1.4",
-                "drupal/facets": "~2.0",
-                "drupal/field_group": "~3.0",
-                "drupal/field_permissions": "~1.0",
-                "drupal/fontawesome": "^2.13",
-                "drupal/image_widget_crop": "^2.2",
-                "drupal/imagemagick": "^3.0",
-                "drupal/ldap": "~4.0",
-                "drupal/libraries": "~3.0",
-                "drupal/link_attributes": " ~1.6",
-                "drupal/linked_field": "~1.1",
-                "drupal/masquerade": "~2.0",
-                "drupal/menu_per_role": "~1.0",
-                "drupal/migrate_file": "~2.0",
-                "drupal/migrate_plus": "~5.1",
-                "drupal/migrate_source_csv": "~3.4",
-                "drupal/migrate_tools": "~4.0",
-                "drupal/name": "~1.0",
-                "drupal/paragraphs": "~1.5",
-                "drupal/pathauto": "~1.3",
-                "drupal/pdfpreview": "^1.0",
-                "drupal/search_api_autocomplete": "~1.0",
-                "drupal/search_api_solr": "~4.1",
-                "drupal/shs": "~2.0",
-                "drupal/slick": "~2.2",
-                "drupal/slick_extras": "~1.0",
-                "drupal/slick_views": "~2.3",
-                "drupal/smtp": "~1.0",
-                "drupal/spamspan": "~1.0",
-                "drupal/superfish": "^1.3",
-                "drupal/token": "~1.3",
-                "drupal/twig_field_value": "~2.0",
-                "drupal/views_bootstrap": "~3.1",
-                "npm-asset/blazy": "~1.0",
-                "npm-asset/cropper": "~4.1.0",
-                "npm-asset/datatables": "1.9.4",
-                "npm-asset/jquery-ui-touch-punch": "~0.2"
-            },
-            "type": "drupal-profile",
-            "extra": {
-                "installer-paths": {
-                    "docroot/libraries/slick": [
-                        "bower-asset/slick-carousel"
-                    ]
-                }
-            },
-            "scripts": {
-                "remove-extra-libraries": [
-                    "rm -rf docroot/libraries/slick-carousel"
-                ]
-            },
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "description": "CMI Distribution Profile",
-            "time": "2022-10-10T11:15:14+00:00"
         },
         {
             "name": "solarium/solarium",
@@ -12537,23 +12538,24 @@
         },
         {
             "name": "symfony/var-exporter",
-            "version": "v6.0.10",
+            "version": "v5.4.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-exporter.git",
-                "reference": "e3df004a8d0fb572c420a6915cd23db9254c8366"
+                "reference": "8fc03ee75eeece3d9be1ef47d26d79bea1afb340"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/e3df004a8d0fb572c420a6915cd23db9254c8366",
-                "reference": "e3df004a8d0fb572c420a6915cd23db9254c8366",
+                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/8fc03ee75eeece3d9be1ef47d26d79bea1afb340",
+                "reference": "8fc03ee75eeece3d9be1ef47d26d79bea1afb340",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0.2"
+                "php": ">=7.2.5",
+                "symfony/polyfill-php80": "^1.16"
             },
             "require-dev": {
-                "symfony/var-dumper": "^5.4|^6.0"
+                "symfony/var-dumper": "^4.4.9|^5.0.9|^6.0"
             },
             "type": "library",
             "autoload": {
@@ -12589,7 +12591,7 @@
                 "serialize"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-exporter/tree/v6.0.10"
+                "source": "https://github.com/symfony/var-exporter/tree/v5.4.10"
             },
             "funding": [
                 {
@@ -12605,7 +12607,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-27T12:57:11+00:00"
+            "time": "2022-05-27T12:56:18+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -13065,5 +13067,5 @@
         "php": ">=7.3.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
