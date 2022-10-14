@@ -45,7 +45,8 @@
             "drupal/console-extend-plugin": true,
             "oomphinc/composer-installers-extender": true,
             "szeidler/composer-patches-cli": true
-        }
+        },
+	"platform-check": false
     },
     "extra": {
         "drupal-scaffold": {
